@@ -3,7 +3,7 @@ With this script you can mount samba partitions on a specific local folder.
 
 The script needs of run permission, so type this in console:
 
-    $ sudo chmod +x smbScript.sh
+    $ sudo chmod +x mntPartition.sh
 
 We go enter on folder that have .sh script, navigate to folder:
 
@@ -11,7 +11,7 @@ We go enter on folder that have .sh script, navigate to folder:
     
 After, we go mount the partitions, for this type in console:    
     
-    $ ./smbScript.sh
+    $ ./mntPartition.sh
     
 The script ask for you some parameters
 
