@@ -9,10 +9,11 @@ read smbAddress
 echo -n "Enter with local folder (/mnt/FOLDER): "
 read localFolder
 
+printf "Information Data:\n"
 echo "You samba username is: $smbUsername"
-echo "\n"
+printf "\n"
 echo "You samba address is: $smbAddress"
-echo "\n"
+printf "\n"
 echo "You local path is: $localFolder"
 
 mount -t cifs -o username=$smbUsername,password=$smbPassword $smbAddress $localFolder
